@@ -1,0 +1,26 @@
+{
+    "expo": {
+        "sdkVersion": "21.0.0",
+        "description": "Ariary.net, une solution de paiement en ligne à Madagascar",
+        "privacy": "public",
+        "icon": "./ariarynetapp/assets/icons/app-icon.png",
+        "loading": {
+            "icon": "./ariarynetapp/assets/icons/app-icon.png",
+            "hideExponentText": false
+        },
+        "ios": {
+            "bundleIdentifier": "com.ariary.net"
+        },
+        "android": {
+            "package": "com.ariary.net"
+        },
+        "name": "AriaryNet",
+        "slug": "ariarynet",
+        "version": "0.1.0",
+        "isDetached": true,
+        "detach": {
+            "scheme": "expc3ab67be1ccb4695bf7d2af686601612",
+            "androidExpoViewUrl": "https://s3.amazonaws.com/exp-exponent-view-code/android-v1.20.0-sdk21.0.0-43fd9293-cb77-4916-a265-5f71e524e681.tar.gz"
+        }
+    }
+}
