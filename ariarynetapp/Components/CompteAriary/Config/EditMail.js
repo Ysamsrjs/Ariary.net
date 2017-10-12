@@ -19,7 +19,8 @@ class EditMail extends Component {
 			username: '',
 			loading: false,
 			userInfo: '',
-			account_id: ''
+			account_id: '',
+			modalVisible:false,
 		};
 	}
 	async _validateChangeMail() {

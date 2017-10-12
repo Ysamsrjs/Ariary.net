@@ -123,8 +123,7 @@ class ProfileAriary extends React.Component {
 											<Icon name="user-circle-o" size={100} color="#00BF9A" />
 										)}
 										{this.state.data.avatar != null && (
-											<TouchableOpacity onPress={()=>{
-												Alert.alert('ojhhhh')}}>
+											<TouchableOpacity onPress={()=>{console.log('Avatar')}}>
 												<Image
 													source={{ uri: this.state.data.avatar }}
 													style={{ width: 150, height: 150, borderRadius: 100 }}

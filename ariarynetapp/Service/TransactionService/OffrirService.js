@@ -1,5 +1,4 @@
 
-
 const BASEURL = 'http://54.229.79.45/ariary2API/web/api/';
 
 // create a component
